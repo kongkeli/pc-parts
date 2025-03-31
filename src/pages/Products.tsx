@@ -1,12 +1,18 @@
 import { Container, Grid, Card, CardContent, Typography } from "@mui/material";
 
-const products = [
+interface Product {
+  id: number;
+  name: string;
+  price: string;
+}
+
+const products: Product[] = [
   { id: 1, name: "Graphics Card", price: "€500" },
   { id: 2, name: "Gaming Monitor", price: "€300" },
   { id: 3, name: "Mechanical Keyboard", price: "€150" }
 ];
 
-function Products() {
+const Products: React.FC = () => {
   return (
     <Container>
       <Typography variant="h4" gutterBottom>Προϊόντα</Typography>
@@ -24,6 +30,6 @@ function Products() {
       </Grid>
     </Container>
   );
-}
+};
 
 export default Products;
