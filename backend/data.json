@@ -1,0 +1,256 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CPUs"
+    },
+    {
+      "id": 2,
+      "name": "GPUs"
+    },
+    {
+      "id": 3,
+      "name": "Motherboards"
+    },
+    {
+      "id": 4,
+      "name": "RAM"
+    },
+    {
+      "id": 5,
+      "name": "Storage"
+    },
+    {
+      "id": 6,
+      "name": "Power Supplies"
+    },
+    {
+      "id": 7,
+      "name": "Cases"
+    },
+    {
+      "id": 8,
+      "name": "Cooling Systems"
+    },
+    {
+      "id": 9,
+      "name": "Monitors"
+    },
+    {
+      "id": 10,
+      "name": "Peripherals"
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "name": "Intel Core i5-13600K",
+      "price": "319.99",
+      "description": "Mid-range performance CPU",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "NVIDIA RTX 4090",
+      "price": "1599.99",
+      "description": "Top-tier gaming graphics card",
+      "category_id": 2
+    },
+    {
+      "id": 5,
+      "name": "AMD Radeon RX 7900 XTX",
+      "price": "999.99",
+      "description": "High-end 24GB GDDR6 GPU",
+      "category_id": 2
+    },
+    {
+      "id": 6,
+      "name": "NVIDIA RTX 4070 Ti",
+      "price": "799.99",
+      "description": "Next-gen performance for gamers",
+      "category_id": 2
+    },
+    {
+      "id": 7,
+      "name": "ASUS ROG Strix Z790-E",
+      "price": "379.99",
+      "description": "High-end motherboard for Intel CPUs",
+      "category_id": 3
+    },
+    {
+      "id": 8,
+      "name": "MSI B650 Tomahawk WiFi",
+      "price": "239.99",
+      "description": "AMD AM5 motherboard with WiFi",
+      "category_id": 3
+    },
+    {
+      "id": 9,
+      "name": "Gigabyte X670 AORUS Elite AX",
+      "price": "269.99",
+      "description": "ATX motherboard for Ryzen 7000 series",
+      "category_id": 3
+    },
+    {
+      "id": 10,
+      "name": "Corsair Vengeance 32GB DDR5",
+      "price": "139.99",
+      "description": "Dual channel 6000MHz kit",
+      "category_id": 4
+    },
+    {
+      "id": 11,
+      "name": "G.SKILL Trident Z5 RGB 32GB",
+      "price": "149.99",
+      "description": "DDR5 6400MHz, CL32, gaming RAM",
+      "category_id": 4
+    },
+    {
+      "id": 12,
+      "name": "Kingston Fury Beast 16GB DDR4",
+      "price": "64.99",
+      "description": "3200MHz low-latency memory",
+      "category_id": 4
+    },
+    {
+      "id": 13,
+      "name": "Samsung 980 PRO 1TB NVMe SSD",
+      "price": "129.99",
+      "description": "High-speed Gen4 M.2 SSD",
+      "category_id": 5
+    },
+    {
+      "id": 14,
+      "name": "WD Black SN850X 2TB",
+      "price": "199.99",
+      "description": "Gaming SSD with heatsink",
+      "category_id": 5
+    },
+    {
+      "id": 15,
+      "name": "Crucial MX500 1TB SSD",
+      "price": "89.99",
+      "description": "SATA SSD for desktops & laptops",
+      "category_id": 5
+    },
+    {
+      "id": 16,
+      "name": "Corsair RM850x 850W",
+      "price": "139.99",
+      "description": "Fully modular 80+ Gold PSU",
+      "category_id": 6
+    },
+    {
+      "id": 17,
+      "name": "EVGA SuperNOVA 750 G6",
+      "price": "119.99",
+      "description": "750W 80+ Gold power supply",
+      "category_id": 6
+    },
+    {
+      "id": 18,
+      "name": "Seasonic Focus GX-650W",
+      "price": "99.99",
+      "description": "Reliable 80+ Gold certified PSU",
+      "category_id": 6
+    },
+    {
+      "id": 19,
+      "name": "NZXT H510 Elite",
+      "price": "149.99",
+      "description": "Mid-tower ATX case with RGB and glass panel",
+      "category_id": 7
+    },
+    {
+      "id": 20,
+      "name": "Lian Li PC-O11 Dynamic",
+      "price": "139.99",
+      "description": "Popular dual-chamber glass case",
+      "category_id": 7
+    },
+    {
+      "id": 21,
+      "name": "Fractal Design Meshify C",
+      "price": "109.99",
+      "description": "Compact and airflow-optimized case",
+      "category_id": 7
+    },
+    {
+      "id": 22,
+      "name": "Noctua NH-D15",
+      "price": "99.99",
+      "description": "Dual-tower air cooler with quiet fans",
+      "category_id": 8
+    },
+    {
+      "id": 23,
+      "name": "Corsair iCUE H150i Elite Capellix",
+      "price": "169.99",
+      "description": "360mm liquid cooler with RGB",
+      "category_id": 8
+    },
+    {
+      "id": 24,
+      "name": "ARCTIC Freezer 34 eSports DUO",
+      "price": "49.99",
+      "description": "Affordable and efficient air cooler",
+      "category_id": 8
+    },
+    {
+      "id": 25,
+      "name": "LG UltraGear 27GP950-B",
+      "price": "799.99",
+      "description": "4K 144Hz Nano IPS gaming monitor",
+      "category_id": 9
+    },
+    {
+      "id": 26,
+      "name": "Dell S2721DGF",
+      "price": "449.99",
+      "description": "27\" QHD 165Hz monitor with FreeSync",
+      "category_id": 9
+    },
+    {
+      "id": 27,
+      "name": "ASUS TUF Gaming VG27AQ",
+      "price": "379.99",
+      "description": "QHD 165Hz G-Sync compatible monitor",
+      "category_id": 9
+    },
+    {
+      "id": 28,
+      "name": "Logitech G Pro X Keyboard",
+      "price": "129.99",
+      "description": "Mechanical gaming keyboard with swappable switches",
+      "category_id": 10
+    },
+    {
+      "id": 29,
+      "name": "Razer DeathAdder V3 Pro",
+      "price": "149.99",
+      "description": "Wireless ergonomic gaming mouse",
+      "category_id": 10
+    },
+    {
+      "id": 30,
+      "name": "SteelSeries Arctis Nova Pro",
+      "price": "249.99",
+      "description": "Premium wired headset with DAC",
+      "category_id": 10
+    },
+    {
+      "id": 1,
+      "name": "Intel Core i9-13900K",
+      "price": "599.99",
+      "description": "13th Gen 24-core processor",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "AMD Ryzen 9 7950X",
+      "price": "549.99",
+      "description": "16-core, 32-thread desktop processor",
+      "category_id": 1
+    }
+  ]
+}
