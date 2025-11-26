@@ -1,14 +1,26 @@
 import pkg from "pg";
 import * as fs from "fs/promises";
+import 'dotenv/config';
 
-const {Client}=pkg;
+const { Client } = pkg;
+
+const dbUser = process.env.DB_USER || 'postgres';
+const dbPassword = process.env.DB_PASSWORD;
+const dbHost = process.env.DB_HOST || 'localhost';
+const dbPort = process.env.DB_PORT ? Number(process.env.DB_PORT) : 5432;
+const dbName = process.env.DB_NAME || 'myshop';
+
+if (!dbPassword) {
+  console.error('Missing required DB_PASSWORD environment variable. Create a `backend/.env` or set the variable before running.');
+  process.exit(1);
+}
 
 const client = new Client({
-  user: "postgres",
-  password: "kK06112005!",
-  host: "localhost",
-  port: 5432,
-  database: "myshop",
+  user: dbUser,
+  password: dbPassword,
+  host: dbHost,
+  port: dbPort,
+  database: dbName,
 });
 
 async function extractData() {
@@ -23,7 +35,7 @@ async function extractData() {
   };
 
   await fs.writeFile("data.json", JSON.stringify(data, null, 2));
-  console.log("✅ Data extracted to data.json");
+  console.log(" Data extracted to data.json");
 
   await client.end();
 }
@@ -51,7 +63,7 @@ async function importData() {
     );
   }
 
-  console.log("✅ Data imported from data.json");
+  console.log("Data imported from data.json");
 
   await client.end();
 }
@@ -63,5 +75,5 @@ if (mode === "extract") {
 } else if (mode === "import") {
   importData();
 } else {
-  console.error("❌ Invalid mode. Use: extract or import");
+  console.error("Invalid mode. Use: extract or import");
 }
