@@ -1,13 +1,14 @@
 # PC Parts Store
 
-Ecommerce-style web app για επιλογή και διαχείριση PC parts με δικό μου backend.
+A simple e-commerce style web application for selecting and managing PC components, powered by a custom backend.
 
 ## Features
-- Browse / filter / search parts (CPU, GPU, RAM, κλπ)
-- Προσθήκη στο cart / wishlist
-- Υπολογισμός συνολικού κόστους
-- Validation & error states
-- Responsive layout για κινητό / tablet / desktop
+- Browse / filter / search PC parts (CPU, GPU, RAM, etc.)
+- Add items to cart or wishlist
+- Automatic total cost calculation
+- Proper validation and error states
+- Fully responsive layout (mobile / tablet / desktop)
+
 
 ## Tech Stack
 - Frontend: React, TypeScript, Vite
